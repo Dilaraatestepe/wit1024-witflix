@@ -12,6 +12,7 @@ header {
 
 header h1 {
     color:  red;
+    margin: 0;
 }
 
 header nav {
@@ -33,10 +34,62 @@ header nav a {
 
 .user-panel input {
     padding: .3rem;
-    width: 7 rem;
+    width: 7rem;
+    
 }
 
 .user-panel img {
     border-radius: 100px;
     width: 2.5rem;
+}
+
+
+/* hero */
+
+main {
+    aspect-ratio: 5/3;
+    border: 1px solid black;
+    margin: 2rem auto;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.user-rating i {
+    color: red;
+}
+
+.content-rating {
+    border: 1px solid black;
+    border-radius: .3rem;
+    padding: .2rem;
+    margin: 0 .5rem;
+    
+}
+
+.main-movie {
+    width: 60%;
+}
+
+.movie-details span {
+    color: red;
+    font-weight: bold;
+    
+}
+
+.movie-details p {
+    margin: .5rem;
+}
+
+button {
+    background: red;
+    border: 0;
+    padding: 1rem 2.5rem 1rem 1rem;
+    border-radius: .5rem;
+    color: white;
+}
+
+button i {
+    margin-left: -1rem;
+    margin-right: .5rem;
 }
